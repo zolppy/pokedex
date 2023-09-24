@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokedex</title>
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <!-- Reset de estilos padrão -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <!-- Oxanium - Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- Meus arquivos-fonte -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+  <main>
+    <div id="container">
+      <img id="pokemon-image" src="" alt="" />
+
+      <h1 id="pokemon-data">
+        <span id="pokemon-number"></span> -
+        <span id="pokemon-name"></span>
+      </h1>
+
+      <form id="form">
+        <input
+          type="search"
+          id="input-search"
+          placeholder="Nome ou número"
+          required
+        />
+      </form>
+
+      <div id="buttons">
+        <button class="button prev-button"> Prev &lt;</button>
+        <button class="button next-button"> Next &gt;</button>
+      </div>
+
+      <img id="pokedex" src="assets/img/pokedex.png" alt="" />
+    </div>
+  </main>
+</body>
+</html>
