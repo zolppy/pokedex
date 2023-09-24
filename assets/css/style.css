@@ -1,17 +1,15 @@
 @charset "UTF-8";
 
 body {
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   font-family: 'Oxanium', cursive;
   text-align: center;
   background-image: linear-gradient(to bottom, #6ab7f5, #fff);
-  min-height: 100vh;
 }
 
 #container {
   display: inline-block;
   margin-top: 2%;
-  padding: 15px;
+  padding: 7px;
   position: relative;
 }
 
