@@ -8,9 +8,10 @@ body {
 
 #container {
   display: inline-block;
-  margin-top: 2%;
+  margin-top: 7px;
   padding: 7px;
   position: relative;
+  height: 100vh;
 }
 
 #pokedex {
