@@ -4,6 +4,7 @@ body {
   font-family: 'Oxanium', cursive;
   text-align: center;
   background-image: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
 }
 
 #container {
@@ -11,7 +12,6 @@ body {
   margin-top: 2%;
   padding: 7px;
   position: relative;
-  height: 100vh;
 }
 
 #pokedex {
