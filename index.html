@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
   <!-- Meus arquivos-fonte -->
   <link rel="stylesheet" href="assets/css/style.css" />
   <script defer src="assets/js/script.js"></script>
@@ -18,7 +20,7 @@
 <body>
   <main>
     <div id="container">
-      <img id="pokemon-image" src="" alt="" />
+      <img id="pokemon-image" src="" alt="Animação do pokemon" />
 
       <h1 id="pokemon-data">
         <span id="pokemon-number"></span> -
@@ -29,14 +31,18 @@
         <input
           type="search"
           id="input-search"
-          placeholder="Nome ou número"
+          placeholder="Nome ou número do pokemon"
           required
         />
       </form>
 
       <div id="buttons">
-        <button class="button prev-button"> Prev &lt;</button>
-        <button class="button next-button"> Next &gt;</button>
+        <button class="button prev-button">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <button class="button next-button">
+          <i class="bi bi-arrow-right"></i>
+        </button>
       </div>
 
       <img id="pokedex" src="assets/img/pokedex.png" alt="" />

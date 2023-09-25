@@ -7,7 +7,8 @@ let searchPokemon = 1;
 
 const fetchPokemon = async (pokemon) => {
   if (isNaN(pokemon)) {
-    pokemon.toLowerCase();
+    pokemon = pokemon.toLowerCase();
+    console.log(pokemon);
   }
 
   const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
