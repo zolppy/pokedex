@@ -1,16 +1,27 @@
-@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
 
 body {
-  font-family: 'Oxanium', cursive;
+  font-size: 1rem;
+  font-family: sans-serif;
   text-align: center;
   background-image: linear-gradient(to bottom, #6ab7f5, #fff);
-  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #container {
   display: inline-block;
-  margin-top: 2%;
-  padding: 7px;
+  /* padding: 7px; */
   position: relative;
 }
 
@@ -89,7 +100,7 @@ body {
 
 .button:active {
   box-shadow: inset -4px 4px 0 #222;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .bi {
